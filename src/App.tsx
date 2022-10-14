@@ -7,7 +7,7 @@ import SubMenu from './components/Menu/subMenu';
 function App() {
   return (
     <div className="App">
-      <Button btnType="link" disabled>Hellow</Button>
+      <Button btnType="link" >Hellow</Button>
       <Menu defaultIndex={'0'} onSelect={(index) => { alert(index) }} >
         <MenuItem>
           cool link
